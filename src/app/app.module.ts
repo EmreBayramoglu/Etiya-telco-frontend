@@ -68,6 +68,7 @@ import { appReducers } from './store/app.reducer';
     StoreDevtoolsModule.instrument({
       autoPause: false,
     }),
+    StoreModule.forRoot({}, {}),
   ],
 
   // Injectable classlarımı providers 'ta tanımlarım
